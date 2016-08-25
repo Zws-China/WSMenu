@@ -15,6 +15,9 @@
 		88F0343D1D6EEA1D00BA0322 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F0343B1D6EEA1D00BA0322 /* LaunchScreen.storyboard */; };
 		88F034481D6EEA1D00BA0322 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F034471D6EEA1D00BA0322 /* ____Tests.m */; };
 		88F034531D6EEA1D00BA0322 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F034521D6EEA1D00BA0322 /* ____UITests.m */; };
+		88F034631D6EEA6D00BA0322 /* WSMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F034621D6EEA6D00BA0322 /* WSMenu.m */; };
+		88F034661D6EEA7200BA0322 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F034641D6EEA7200BA0322 /* bg.jpg */; };
+		88F034671D6EEA7200BA0322 /* menu.gif in Resources */ = {isa = PBXBuildFile; fileRef = 88F034651D6EEA7200BA0322 /* menu.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		88F0344E1D6EEA1D00BA0322 /* 按钮菜单UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "按钮菜单UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F034521D6EEA1D00BA0322 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		88F034541D6EEA1D00BA0322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88F034611D6EEA6D00BA0322 /* WSMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMenu.h; sourceTree = "<group>"; };
+		88F034621D6EEA6D00BA0322 /* WSMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMenu.m; sourceTree = "<group>"; };
+		88F034641D6EEA7200BA0322 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		88F034651D6EEA7200BA0322 /* menu.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = menu.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +112,13 @@
 				88F034311D6EEA1D00BA0322 /* AppDelegate.m */,
 				88F034331D6EEA1D00BA0322 /* ViewController.h */,
 				88F034341D6EEA1D00BA0322 /* ViewController.m */,
+				88F034601D6EEA6C00BA0322 /* WSMenu框架 */,
 				88F034361D6EEA1D00BA0322 /* Main.storyboard */,
 				88F034391D6EEA1D00BA0322 /* Assets.xcassets */,
 				88F0343B1D6EEA1D00BA0322 /* LaunchScreen.storyboard */,
 				88F0343E1D6EEA1D00BA0322 /* Info.plist */,
+				88F034641D6EEA7200BA0322 /* bg.jpg */,
+				88F034651D6EEA7200BA0322 /* menu.gif */,
 				88F0342D1D6EEA1D00BA0322 /* Supporting Files */,
 			);
 			path = "按钮菜单";
@@ -138,6 +148,15 @@
 				88F034541D6EEA1D00BA0322 /* Info.plist */,
 			);
 			path = "按钮菜单UITests";
+			sourceTree = "<group>";
+		};
+		88F034601D6EEA6C00BA0322 /* WSMenu框架 */ = {
+			isa = PBXGroup;
+			children = (
+				88F034611D6EEA6D00BA0322 /* WSMenu.h */,
+				88F034621D6EEA6D00BA0322 /* WSMenu.m */,
+			);
+			path = "WSMenu框架";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +264,8 @@
 			files = (
 				88F0343D1D6EEA1D00BA0322 /* LaunchScreen.storyboard in Resources */,
 				88F0343A1D6EEA1D00BA0322 /* Assets.xcassets in Resources */,
+				88F034671D6EEA7200BA0322 /* menu.gif in Resources */,
+				88F034661D6EEA7200BA0322 /* bg.jpg in Resources */,
 				88F034381D6EEA1D00BA0322 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +293,7 @@
 			files = (
 				88F034351D6EEA1D00BA0322 /* ViewController.m in Sources */,
 				88F034321D6EEA1D00BA0322 /* AppDelegate.m in Sources */,
+				88F034631D6EEA6D00BA0322 /* WSMenu.m in Sources */,
 				88F0342F1D6EEA1D00BA0322 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
