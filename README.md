@@ -6,8 +6,11 @@
 
 # How To Use
 1.导入文件夹WSMenu框架，在所需要的类中#import "WSMenu.h"
+
 2.声明变量 WSMenu *menu;
+
 3.在按钮事件里面写
+
 - (void)button1Action:(UIButton *)btn {
 
     NSMutableArray * arr = [[NSMutableArray alloc] init];
